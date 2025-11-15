@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Evaluación - Biología</title>
+  <style>
+   body { background:#5df5cf; font-family:"Times New Roman", Times, serif; }
+    h1 { font-size:40px; font-family:Arial, sans-serif; color:blue; background:#8beed8; text-align:center; padding:8px; }
+    h2 { font-family:Arial, sans-serif; color:green; text-align:center; }
+    p { font-family:"Times New Roman", Times, serif; font-style:italic; color:black; text-align:justify; font-size:16px; }
+    table { width:60%;  border-collapse:collapse; border:1px solid black; background:#e0fff7; }
+    th { background-color:#9ff5df; padding:6px; }
+    td, th { border:1px solid black; padding:6px; text-align:center; }
+  </style>
+</head>
+<body>
+
+  <h1>Evaluación</h1>
+
+  <form>
+    <label><b>Nombre y Apellido:</b></label><br>
+    <input type="text" name="nombre" required><br><br>
+
+    <label><b>Grupo:</b></label><br>
+    <input type="text" name="grupo" value="" required><br><br>
+
+    <label><b>C.I.:</b></label><br>
+    <input type="text" name="ci" value="" required><br><br>
+
+    <label><b>Correo electrónico:</b></label><br>
+    <input type="email" name="correo"><br><br>
+
+    <label><b>Fecha de realizado:</b></label><br>
+    <input type="date" name="fecha"><br><br>
+
+    <div align="center">
+      <img src="Imagenes/evaluacion.jpg" alt="Evaluación" width="260">
+    </div>
+
+    <h2>Preguntas</h2>
+    <ol>
+
+      <li>¿Cuál organelo es el principal reservorio de energía en la célula?<br>
+        <input type="radio" name="q1" value="mitoc"> Mitocondria<br>
+        <input type="radio" name="q1" value="cloro"> Cloroplasto<br>
+        <input type="radio" name="q1" value="nucleo"> Núcleo<br>
+      </li><br>
+
+     
+      <li>Marca los factores abióticos:<br>
+        <input type="checkbox" name="q2a"> Temperatura<br>
+        <input type="checkbox" name="q2b"> Agua<br>
+        <input type="checkbox" name="q2c"> Plantas<br>
+        <input type="checkbox" name="q2d"> Suelo<br>
+      </li><br>
+
+
+      <li>Selecciona el tipo de tejido que transmite impulsos nerviosos:<br>
+        <select name="q3">
+          <option value="">-- Seleccione --</option>
+          <option>Epitelial</option>
+          <option>Muscular</option>
+          <option>Nervioso</option>
+        </select>
+      </li><br>
+
+     
+      <li>Escribe un ejemplo de organismo unicelular:<br>
+        <input type="text" name="q4" size="60">
+      </li><br>
+
+
+      <li>Explica en 2-3 líneas qué es un ecosistema:<br>
+        <textarea name="q5" rows="3" cols="60"></textarea>
+      </li><br>
+
+   
+      <li>La fotosíntesis ocurre en las mitocondrias (verdadero/falso):<br>
+        <input type="radio" name="q6" value="v"> Verdadero<br>
+        <input type="radio" name="q6" value="f"> Falso<br>
+      </li><br>
+
+
+      <li>¿Cuántos reinos básicos existen en la clasificación tradicional (escribe un número)?<br>
+        <input type="number" name="q7" min="1" max="10">
+      </li><br>
+
+     
+      <li>Completa la tabla con una característica de cada tipo celular:</li>
+      <table>
+        <caption>Tabla: N.º 4 – Tipos celulares y característica principal</caption>
+        <tr><th>Tipo</th><th>Característica</th></tr>
+        <tr><td>Animal</td><td><input type="text" name="q8a"></td></tr>
+        <tr><td>Vegetal</td><td><input type="text" name="q8b"></td></tr>
+        <tr><td>Procarionte</td><td><input type="text" name="q8c"></td></tr>
+      </table>
+      <br>
+
+
+      <li>¿Qué prácticas ayudan a prevenir enfermedades? (marque dos)<br>
+        <input type="checkbox" name="q9a"> Lavado de manos<br>
+        <input type="checkbox" name="q9b"> Vacunación<br>
+        <input type="checkbox" name="q9c"> Compartir utensilios<br>
+      </li><br>
+
+    
+      <li>Describe una actividad práctica (breve) que podrías realizar en el taller de Biología y su objetivo:<br>
+        <textarea name="q10" rows="3" cols="60"></textarea>
+      </li>
+    </ol>
+
+    <input type="submit" value="Enviar evaluación">
+  </form>
+
+  <br>
+  <div align="center">
+    <a href="index.html">Volver a Inicio</a>
+  </div>
+
+  <br>
+  <footer>2025 - Francisco Arias - 9°7</footer>
+
+</body>
+</html>
